@@ -575,11 +575,15 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# Custom ignore
-.idea
-pdf
-html
 
 # Ignore all custom markdown outlines, but keep the REAMDE.md
 *.md
 !README.md
+
+
+# Custom ignores
+.idea
+pdf
+html
+fonts
+.DS_Store

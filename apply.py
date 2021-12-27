@@ -15,7 +15,7 @@ def apply(argv) -> bool:
     company_name = argv[0]
     outline = argv[1]
 
-    # Create directory if it doesn't exist'
+    # Create directory if it doesn't exist
     if not os.path.exists("pdf"):
         os.mkdir("pdf")
 
